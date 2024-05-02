@@ -1,4 +1,4 @@
-# AgriMateMN
+# AgriMateMN APP
 ![GitHub last commit](https://img.shields.io/github/last-commit/TzuYuMa/AgriMateMN?style=for-the-badge)
 
 ## Overview  
