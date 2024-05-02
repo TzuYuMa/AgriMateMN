@@ -1,14 +1,16 @@
-# Minnesota Corn Growers App
-![GitHub last commit](https://img.shields.io/github/last-commit/TzuYuMa/Corn?style=for-the-badge)
+# AgriMateMN
+![GitHub last commit](https://img.shields.io/github/last-commit/TzuYuMa/AgriMateMN?style=for-the-badge)
 
 ## Overview  
-This app aims to provide Minnesota corn growers with updated information on growing degree days (AGDD), soil moisture, and reference evapotranspiration (ET). Selecting the desire area to download data with CSV or PDF file, or you can find the [Data URLs for GeoJson](#data-urls-for-geojson) Utilizing GeoJSON format from APIs. This supports agricultural decision-making in Minnesota by facilitating the comparison of various models for accurate analysis.
+AgriMateMN provides AGDD (Growing Degree Days) data for the Last Minnesota Growing Season (May-Sep 2023), Soil Moisture data from July 2023 to April 2024, and ET (Evapotranspiration) information. Selecting the desire area to download data with CSV or PDF file, or you can find the [Data URLs for GeoJson](#data-urls-for-geojson) Utilizing GeoJSON format from APIs. This supports agricultural decision-making in Minnesota by facilitating the comparison of various models for accurate analysis.
 
 ## Objectives  
 - Develop a system to calculate and map AGDD, ET, and soil moisture for Minnesota Corn Growers.
 - Utilize local and cloud computing to automate data processing from collection through spatial visualization via ArcOnline.
 - Ensure data accuracy and seamless integration of varied datasets within a PostgreSQL database.
 - Maintain user-friendly access and support real-time updates.
+
+## APP link
 
 ## Data URLs for GeoJson
 - AGDD: 
@@ -38,6 +40,5 @@ This app aims to provide Minnesota corn growers with updated information on grow
 - **TerraClimate**: Actual Evapotranspiration.
   
 ## Contributors 
-- Samikshya Subedi
 - Tzu-Yu Ma  
-
+- Samikshya Subedi
