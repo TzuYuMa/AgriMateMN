@@ -27,7 +27,23 @@ AgriMateMN provides AGDD (Growing Degree Days) data for the Last Minnesota Growi
   *Data Coverage: Previous growing season, spanning from April 2023 to September 2023. Utilizes Inverse Distance Weighted (IDW) interpolation based on 153 observation sites across Minnesota.*
 
 ### ET Data
-- **ET Data URL**: [ET Data URL]
+- **Download for Entire State of Minnesota:**
+  ```plaintext
+  https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_et_<date>
+  ```
+
+- **Download by County:**
+  ```plaintext
+  https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_et_<date>_<countyname>
+  ```
+  *(Replace `<date>` with the desired year and month, and `<countyname>` with the desired county name (lower case, spaces replaced with '_'))*
+
+  Available date range: **20235-20239 (May 2023 - September 2023)**
+
+  For example:
+  ```plaintext
+  https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_20237_hennepin
+  ```
 
 ### Soil Moisture Data
 - **Download for Entire State of Minnesota:**
