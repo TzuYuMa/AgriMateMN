@@ -31,18 +31,27 @@ AgriMateMN provides AGDD (Growing Degree Days) data for the Last Minnesota Growi
   Our Accuracy Assessment concluded that IDW provided the most dependable results.
 - **ET**: [ET Data URL]
 - **Soil Moisture**:
+
+  Download the data for the entire state of Minnesota
   ```python
   https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_<date>
   ```
+
+  Download the data by county
+  ```python
+  https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_<date>_<countyname>
+  ```
+
   Please manually replace `<date>` with the desired year and month in your browser's address bar
 
-
   Available date range: 20237-20244 (July 2023 - April 2024)
+
+  Please manually replace `<county>` with the desired county name (lower case, space replaced with '_') in your browser's address bar
 
   For example:
   
   ```plaintext
-  https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_20237
+  https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_20237_hennepin
 ## Data Sources 
 - **IEM**: Daily Min/Max temperature data.
 - **NASA SMAP**: Soil Moisture.
