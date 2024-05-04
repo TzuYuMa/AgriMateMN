@@ -10,18 +10,18 @@ AgriMateMN provides AGDD (Growing Degree Days) data for the Last Minnesota Growi
 ### AGDD Data
 - **Download for Entire State of Minnesota:**
   ```plaintext
-  https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_agdd_minnesota
+  https://googlecloudrun-nvrttyom5q-uc.a.run.app/agdd_minnesota
   ```
 
 - **Download by County:**
   ```plaintext
-  https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_agdd_<county>
+  https://googlecloudrun-nvrttyom5q-uc.a.run.app/agdd/<county>
   ```
   *(Replace `<county>` with the desired county name (lower case, spaces replaced with '_'))*
 
   For example:
   ```plaintext
-  https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_agdd_st_louis
+  https://googlecloudrun-nvrttyom5q-uc.a.run.app/agdd/st_louis
   ```
 
   *Data Coverage: Previous growing season, spanning from April 2023 to September 2023. Utilizes Inverse Distance Weighted (IDW) interpolation based on 153 observation sites across Minnesota.*
@@ -29,12 +29,12 @@ AgriMateMN provides AGDD (Growing Degree Days) data for the Last Minnesota Growi
 ### ET Data
 - **Download for Entire State of Minnesota:**
   ```plaintext
-  https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_et_<date>
+  https://googlecloudrun-nvrttyom5q-uc.a.run.app/et/<date>
   ```
 
 - **Download by County:**
   ```plaintext
-  https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_et_<date>_<countyname>
+  https://googlecloudrun-nvrttyom5q-uc.a.run.app/et/<date>/<countyname>
   ```
   *(Replace `<date>` with the desired year and month, and `<countyname>` with the desired county name (lower case, spaces replaced with '_'))*
 
@@ -42,18 +42,18 @@ AgriMateMN provides AGDD (Growing Degree Days) data for the Last Minnesota Growi
 
   For example:
   ```plaintext
-  https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_et_20237_st_louis
+  https://googlecloudrun-nvrttyom5q-uc.a.run.app/et/20237/st_louis
   ```
 
 ### Soil Moisture Data
 - **Download for Entire State of Minnesota:**
   ```plaintext
-  https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_<date>
+  https://googlecloudrun-nvrttyom5q-uc.a.run.app/soil_moisture/<date>
   ```
 
 - **Download by County:**
   ```plaintext
-  https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_<date>_<countyname>
+  https://googlecloudrun-nvrttyom5q-uc.a.run.app/soil_moisture/<date>/<countyname>
   ```
   *(Replace `<date>` with the desired year and month, and `<countyname>` with the desired county name (lower case, spaces replaced with '_'))*
 
@@ -61,7 +61,7 @@ AgriMateMN provides AGDD (Growing Degree Days) data for the Last Minnesota Growi
 
   For example:
   ```plaintext
-  https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_20237_st_louis
+  https://googlecloudrun-nvrttyom5q-uc.a.run.app/soil_moisture/20237/st_louis
 ## Minnesota Counties
 
 |        |        |        |        |        |
