@@ -8,12 +8,25 @@ AgriMateMN provides AGDD (Growing Degree Days) data for the Last Minnesota Growi
 
 ## Data URLs for GeoJson
 - AGDD: 
+  Download the data cover whole Minnesota
   ```python
-  https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_agdd_idw
+  https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_agdd_minnesota
   ```
+
+  Download the data by county
+  ```python
+  https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_agdd_<county>
+  ```
+  Please manually replace `<county>` with the desired county name (lower case, space replace to '_') in your browser's address bar
+
+  For example:
+  
+  ```plaintext
+  https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_agdd_st_louis
+
   In the app, we offer data for the previous growing season, spanning from **April 2023 to September 2023**. We employed Inverse Distance Weighted (IDW) interpolation to extrapolate data from 153 observation sites across the entirety of Minnesota.
 
-  Our [Accuracy Assessment.ipynb](https://github.com/TzuYuMa/Corn/blob/main/Final%20Project/Accuracy%20Assessment.ipynb) concluded that IDW provided the most dependable results.
+  Our Accuracy Assessment concluded that IDW provided the most dependable results.
 - ET: [ET Data URL]
 - Soil Moisture:
   ```python
