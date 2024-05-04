@@ -50,7 +50,6 @@ AgriMateMN provides AGDD (Growing Degree Days) data for the Last Minnesota Growi
 ## Minnesota Counties
 
 Aitkin | Anoka | Becker | Beltrami | Benton
------- | ----- | ------ | -------- | ------
 Big Stone | Blue Earth | Brown | Carlton | Carver
 Cass | Chippewa | Chisago | Clay | Clearwater
 Cook | Cottonwood | Crow Wing | Dakota | Dodge
