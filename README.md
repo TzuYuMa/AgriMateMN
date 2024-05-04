@@ -7,51 +7,46 @@ AgriMateMN provides AGDD (Growing Degree Days) data for the Last Minnesota Growi
 ## APP link
 
 ## Data URLs for GeoJson
-- **AGDD**: 
-
-  Download the data for the entire state of Minnesota
-  ```python
+### AGDD Data
+- **Download for Entire State of Minnesota:**
+  ```plaintext
   https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_agdd_minnesota
   ```
 
-  Download the data by county
-  ```python
+- **Download by County:**
+  ```plaintext
   https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_agdd_<county>
   ```
-  Please manually replace `<county>` with the desired county name (lower case, space replaced with '_') in your browser's address bar
+  *(Replace `<county>` with the desired county name (lower case, spaces replaced with '_'))*
 
   For example:
-  
   ```plaintext
   https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_agdd_st_louis
   ```
 
-  In the app, we offer data for the previous growing season, spanning from **April 2023 to September 2023**. We employed Inverse Distance Weighted (IDW) interpolation to extrapolate data from 153 observation sites across the entirety of Minnesota.
+  *Data Coverage: Previous growing season, spanning from April 2023 to September 2023. Utilizes Inverse Distance Weighted (IDW) interpolation based on 153 observation sites across Minnesota.*
 
-  Our Accuracy Assessment concluded that IDW provided the most dependable results.
-- **ET**: [ET Data URL]
-- **Soil Moisture**:
+### ET Data
+- **ET Data URL**: [ET Data URL]
 
-  Download the data for the entire state of Minnesota
-  ```python
+### Soil Moisture Data
+- **Download for Entire State of Minnesota:**
+  ```plaintext
   https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_<date>
   ```
 
-  Download the data by county
-  ```python
+- **Download by County:**
+  ```plaintext
   https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_<date>_<countyname>
   ```
+  *(Replace `<date>` with the desired year and month, and `<countyname>` with the desired county name (lower case, spaces replaced with '_'))*
 
-  Please manually replace `<date>` with the desired year and month in your browser's address bar
-
-  Available date range: 20237-20244 (July 2023 - April 2024)
-
-  Please manually replace `<county>` with the desired county name (lower case, space replaced with '_') in your browser's address bar
+  Available date range: **20237-20244 (July 2023 - April 2024)**
 
   For example:
-  
   ```plaintext
   https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_20237_hennepin
+  ```
 ## Data Sources 
 - **IEM**: Daily Min/Max temperature data.
 - **NASA SMAP**: Soil Moisture.
