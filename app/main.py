@@ -121,7 +121,7 @@ def get_soil_moisture_county(date, countyname):
     sm_county = "samp_soil_moisture_" + date
 
     # Construct the SQL query to retrieve soil moisture data for the specified county
-    sql_query = f"""
+    sm_query = f"""
         SELECT {sm_county}.*,
         ST_AsGeoJSON({sm_county}.shape)::json AS geometry
         FROM {sm_county} 
@@ -130,7 +130,7 @@ def get_soil_moisture_county(date, countyname):
     """
 
     # Execute the SQL query and return the result as GeoJSON
-    sm_county_geojson = database_to_geojson_by_query(sql_query)
+    sm_county_geojson = database_to_geojson_by_query(sm_query)
     return sm_county_geojson
 
 
