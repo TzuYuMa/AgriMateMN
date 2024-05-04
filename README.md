@@ -9,7 +9,7 @@ AgriMateMN provides AGDD (Growing Degree Days) data for the Last Minnesota Growi
 ## Data URLs for GeoJson
 - **AGDD**: 
 
-  Download the data cover whole Minnesota
+  Download the data for the entire state of Minnesota
   ```python
   https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_agdd_minnesota
   ```
@@ -18,7 +18,7 @@ AgriMateMN provides AGDD (Growing Degree Days) data for the Last Minnesota Growi
   ```python
   https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_agdd_<county>
   ```
-  Please manually replace `<county>` with the desired county name (lower case, space replace to '_') in your browser's address bar
+  Please manually replace `<county>` with the desired county name (lower case, space replaced with '_') in your browser's address bar
 
   For example:
   
