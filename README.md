@@ -42,7 +42,7 @@ AgriMateMN provides AGDD (Growing Degree Days) data for the Last Minnesota Growi
 
   For example:
   ```plaintext
-  https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_20237_hennepin
+  https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_et_20237_st_louis
   ```
 
 ### Soil Moisture Data
@@ -61,8 +61,7 @@ AgriMateMN provides AGDD (Growing Degree Days) data for the Last Minnesota Growi
 
   For example:
   ```plaintext
-  https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_20237_hennepin
-  ```
+  https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_soil_moisture_20237_st_louis
 ## Minnesota Counties
 
 |        |        |        |        |        |
