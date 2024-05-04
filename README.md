@@ -10,7 +10,7 @@ AgriMateMN provides AGDD (Growing Degree Days) data for the Last Minnesota Growi
 ### AGDD Data
 - **Download for Entire State of Minnesota:**
   ```plaintext
-  https://googlecloudrun-nvrttyom5q-uc.a.run.app/agdd_minnesota
+  https://googlecloudrun-nvrttyom5q-uc.a.run.app/agdd/minnesota
   ```
 
 - **Download by County:**
