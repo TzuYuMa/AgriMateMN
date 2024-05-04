@@ -24,6 +24,7 @@ AgriMateMN provides AGDD (Growing Degree Days) data for the Last Minnesota Growi
   
   ```plaintext
   https://googlecloudrun-nvrttyom5q-uc.a.run.app/get_agdd_st_louis
+  ```
 
   In the app, we offer data for the previous growing season, spanning from **April 2023 to September 2023**. We employed Inverse Distance Weighted (IDW) interpolation to extrapolate data from 153 observation sites across the entirety of Minnesota.
 
