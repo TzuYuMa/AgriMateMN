@@ -1,4 +1,4 @@
-<img src="https://github.com/TzuYuMa/AgriMateMN/blob/main/logo/logo.png" width="10" height="10">
+<img src="https://github.com/TzuYuMa/AgriMateMN/blob/main/logo/logo.png" width="100" height="100">
 
 
 # AgriMateMN APP
