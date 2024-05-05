@@ -1,4 +1,5 @@
-![logo](https://github.com/TzuYuMa/AgriMateMN/blob/main/logo/logo.png)
+<img src="https://github.com/TzuYuMa/AgriMateMN/blob/main/logo/logo.png" width="10" height="10">
+
 
 # AgriMateMN APP
 ![GitHub last commit](https://img.shields.io/github/last-commit/TzuYuMa/AgriMateMN?style=for-the-badge)
