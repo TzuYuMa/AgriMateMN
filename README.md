@@ -2,9 +2,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/TzuYuMa/AgriMateMN?style=for-the-badge)
 
 ## Overview  
-AgriMateMN provides AGDD (Growing Degree Days) data for the Last Minnesota Growing Season (May-Sep 2023), Soil Moisture data from July 2023 to April 2024, and ET (Evapotranspiration) information. Selecting the desire area to download data with CSV or PDF file, or you can find the [Data URLs for GeoJson](#data-urls-for-geojson) Utilizing GeoJSON format from APIs. This supports agricultural decision-making in Minnesota by facilitating the comparison of various models for accurate analysis.
-
-## APP link
+AgriMateMN provides AGDD (Accumulated Growing Degree Days) data for the Last Minnesota Growing Season (May-Sep 2023), Soil Moisture data from July 2023 to April 2024, and ET (Actual Evapotranspiration) data from May 2023 to September 2023. Selecting the desire area to download data with CSV or PDF file, or you can find the [Data URLs for GeoJson](#data-urls-for-geojson) utilizing GeoJSON format from APIs. This supports agricultural decision-making in Minnesota by facilitating the comparison of various models for accurate analysis.
 
 ## Data URLs for GeoJson
 ### AGDD Data
@@ -85,12 +83,10 @@ AgriMateMN provides AGDD (Growing Degree Days) data for the Last Minnesota Growi
 | Waseca | Washington | Watonwan | Wilkin | Winona |
 | Wright | Yellow Medicine |        |        |        |
 
-
-
 ## Data Sources 
-- **IEM**: Daily Min/Max temperature data.
-- **NASA SMAP**: Soil Moisture.
-- **TerraClimate**: Actual Evapotranspiration.
+- [**Iowa Environmental Mesonet (IEM)**](https://mesonet.agron.iastate.edu/): Daily Min/Max temperature data.
+- [**NASA SMAP**](https://nsidc.org/data/spl3smp_e/versions/3): Soil Moisture.
+- [**TerraClimate**](https://developers.google.com/earth-engine/datasets/catalog/IDAHO_EPSCOR_TERRACLIMATE): Actual Evapotranspiration.
   
 ## Contributors 
 - Tzu-Yu Ma  
