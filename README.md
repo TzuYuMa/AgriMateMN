@@ -7,6 +7,8 @@
 ## Overview  
 AgriMateMN provides AGDD (Accumulated Growing Degree Days) data for the Last Minnesota Growing Season (May-Sep 2023), Soil Moisture data from July 2023 to April 2024, and ET (Actual Evapotranspiration) data from May 2023 to September 2023. Selecting the desire area to download data with CSV or PDF file, or you can find the [Data URLs for GeoJson](#data-urls-for-geojson) utilizing GeoJSON format from APIs. This supports agricultural decision-making in Minnesota by facilitating the comparison of various models for accurate analysis.
 
+## Learn more about AgriMateMN APP
+![story map](https://arcg.is/SeWKW)
 ## Data URLs for GeoJson
 ### AGDD Data
 - **Download for Entire State of Minnesota:**
